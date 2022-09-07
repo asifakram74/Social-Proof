@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Bree Serif', serif;
+}
+
+/* ............... Glooble Tag ..................... */
+main{
+    
+    background-image: url("../images/bg-pattern-top-desktop.svg") , url("../images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 500px ,950px;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.firstContent h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    line-height: 45px;
+    width: 300px;
+}
+
+.box h4 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+h5 {
+    margin-left: 14px;
+}
+
+h6 {
+
+    color: hsl(333, 80%, 67%);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.firstContent p {
+    width: 380px;
+    margin-top: 1.6rem;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+    color: rgb(114, 113, 113);
+}
+
+.box1 p {
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* .................................... */
+
+.container {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* ................ First Content start ............. */
+
+.firstContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+.textContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.lineText {
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    padding: 14px;
+    border-radius: 6px;
+    margin: 6px 0;
+    display: flex;
+    width: 380px;
+}
+.same{
+    margin-right: 80px;
+}
+.same2{
+    margin-right: 40px;
+}
+/* ................ second Content start ................  */
+.secondContent {
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem auto 0;
+    align-items: flex-start;
+}
+
+.box {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.box1 {
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 8px;
+    color: #fff;
+    width: 345px;
+    padding: 1.6rem;
+}
+
+.box2 {
+    margin-top: 20px;
+}
+
+.box3 {
+
+    margin-top: 40px;
+}
+
+.space {
+    margin-left: 12px;
+}
+
+.secondContent img {
+    width: 45px;
+    border-radius: 50%;
+}
+
+/* ..........................Media Query........................... */
+
+@media screen and (max-width: 375px) {
+
+    .firstContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+
+    .secondContent {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        padding-bottom: 20px
+    }
+
+    .lineText {
+        text-align: center;
+        width: 290px;
+        margin-left: 0;
+
+    }
+
+    .lineText2 {
+        margin-left: 0rem;
+        text-align: center;
+    }
+
+    .lineText3 {
+        margin-left: 0rem;
+        text-align: center;
+    }
+
+    .lineText {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .firstContent p {
+        width: 300px;
+    }
+
+    .box1 {
+        padding: 16px;
+        margin-top: 12px;
+    }
+
+    .box2 {
+        margin-top: 12px;
+        padding: 16px;
+    }
+
+    .box3 {
+
+        margin-top: 12px;
+        padding: 16px;
+    }
+}
