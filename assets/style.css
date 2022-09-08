@@ -10,15 +10,7 @@ body {
 }
 
 /* ............... Glooble Tag ..................... */
-main{
-    
-    background-image: url("../images/bg-pattern-top-desktop.svg") , url("../images/bg-pattern-bottom-desktop.svg");
-    background-repeat: no-repeat;
-    background-position: top left, bottom right;
-    background-size: 500px ,950px;
-    background-attachment: fixed;
-    height: 100vh;
-}
+
 .firstContent h1 {
     font-size: 42px;
     font-weight: 700;
@@ -27,19 +19,20 @@ main{
     width: 300px;
 }
 
-.box h4 {
+.box h3 {
     font-size: 15px;
     font-weight: 300;
 }
 
-h5 {
+h2 {
     margin-left: 14px;
+    font-size: 14px;
 }
 
-h6 {
+h4 {
 
     color: hsl(333, 80%, 67%);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -59,7 +52,15 @@ h6 {
 }
 
 /* .................................... */
-
+main{
+    
+    background-image: url("../images/bg-pattern-top-desktop.svg") , url("../images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 500px ,950px;
+    background-attachment: fixed;
+    height: 100vh;
+}
 .container {
     width: 80%;
     max-width: 1440px;
